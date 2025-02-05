@@ -33,5 +33,7 @@ The **Apple Style Calculator** is a simple, modern calculator application that e
 
    ```bash
    git clone https://github.com/yasir-a/apple-calculator-reactjs.git
-   cd calculator-app
+   cd apple-calculator-reactjs
+   npm install
+   npm run dev
    ```
