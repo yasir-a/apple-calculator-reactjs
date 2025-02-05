@@ -135,7 +135,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className='calculator'>
+    <div role='application' className='calculator'>
       <div className='display' data-testid='display'>
         {display}
       </div>
