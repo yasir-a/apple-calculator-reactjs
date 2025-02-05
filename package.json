@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "typecheck": "bash -c \"tsc $* -p tsconfig.json --noEmit\""
   },
   "dependencies": {
     "react": "^18.3.1",
